@@ -54,7 +54,7 @@ namespace VueCalculatorTest
             //Testing the select
             IWebElement select = _driver.FindElement(By.Id("selectId"));
             select.SendKeys("+");
-
+ 
         }
     }
 }
